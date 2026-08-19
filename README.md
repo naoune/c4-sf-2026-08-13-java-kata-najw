@@ -52,3 +52,41 @@ com.najwa.kata.loyalty
 ├── repository
 ├── service
 └── LoyaltyKataApplication
+
+## REST Endpoints
+
+POST /loyalty/{accountId}/earn?points=100
+
+POST /loyalty/{accountId}/spend?points=50
+
+POST /loyalty/{accountId}/voucher?points=500
+
+POST /loyalty/{accountId}/donation?points=200
+
+GET /loyalty/{accountId}
+
+## Kafka Events
+
+POINTS_EARNED
+
+POINTS_SPENT
+
+VOUCHER_CREATED
+
+POINTS_DONATED
+
+POINTS_EXPIRED
+
+## Run Application
+
+Build:
+
+mvnw.cmd clean install
+
+Run:
+
+mvnw.cmd spring-boot:run
+
+Run tests:
+
+mvnw.cmd test
