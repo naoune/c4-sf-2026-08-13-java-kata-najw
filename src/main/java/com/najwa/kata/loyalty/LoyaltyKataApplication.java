@@ -1,4 +1,4 @@
-package com.najwa.kata.loyalty_kata;
+package com.najwa.kata.loyalty;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
